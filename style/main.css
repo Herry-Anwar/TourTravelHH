@@ -1,0 +1,472 @@
+body {
+  font-size: 18px;
+  font-family: "Playfair Display", serif;
+  background-color: #f8f8f8;
+}
+
+.navbar-brand img {
+  width: 200px;
+}
+
+.nav-link {
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-login {
+  font-size: 15px;
+  background-color: darkblue;
+  color: white;
+  font-weight: 500;
+  margin-left: 5px;
+  margin-right: -5px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.btn-login:hover {
+  background-color: #1e3771;
+  color: white;
+}
+
+.btn-navbar-right {
+  margin-top: -17px !important;
+  margin-bottom: -16px !important;
+  margin-right: -70px;
+  border-radius: 0;
+  padding-top: 10px;
+  height: 80px;
+}
+
+header {
+  padding-top: 180px;
+  padding-bottom: 180px;
+  margin-top: -80px;
+  background-image: url(../img/header-bg.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+}
+
+header h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+}
+
+header p {
+  font-size: 24px;
+  color: white;
+  font-weight: 200;
+}
+
+header .btn-get-started {
+  background-color: #ff9e53;
+  color: white;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+header .btn-get-started:hover {
+  background-color: #ec8d44;
+  color: white;
+}
+
+.row-box {
+  background-color: white;
+  margin-top: -45px;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  padding-right: 5px;
+  padding-left: 5px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+.row-box h3,
+.row-box p {
+  color: #05102b;
+  font-weight: 200;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.row-box h3 {
+  font-size: 22px;
+  font-weight: 500;
+}
+
+.row-box p {
+  font-size: 16px;
+}
+
+.section-popular {
+  background-color: #051334;
+  height: 550px;
+  margin-top: -100px;
+  padding-top: 130px;
+  text-align: center !important;
+  margin-bottom: 1300px;
+}
+
+.section-popular h1 {
+  font-size: 35px;
+  font-family: "Playfair Display", serif;
+  font-weight: bold;
+  color: white;
+}
+
+.section-popular p {
+  font-size: 20px;
+  font-family: "Playfair Display", serif;
+  font-weight: 200;
+  color: white;
+}
+
+.section-popular .wisata {
+  margin-top: 100px;
+}
+
+.section-popular .wisata-lampung {
+  background-image: url(../img/Lampung.jpg);
+  height: 470px;
+  max-width: 350px;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+.section-popular .wisata-bali {
+  background-image: url(../img/Bali.jpg);
+  height: 470px;
+  max-width: 350px;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+.section-popular .wisata-malang:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section-popular .wisata-lampung:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section-popular .wisata-bali:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.section-popular .wisata-malang {
+  background-image: url(../img/Bromo.jpg);
+  height: 470px;
+  max-width: 350px;
+  background-size: cover;
+  margin: 5px 10px;
+}
+
+.section-popular .header-wisata {
+  text-align: center !important;
+  font-size: 30px;
+  color: #ffffff;
+  font-weight: 700;
+  padding-top: 15px;
+  padding-bottom: 330px;
+}
+
+.section-popular .btn-view {
+  background-color: #ff9e53;
+  color: white;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.section-popular .btn-view:hover {
+  background-color: #ec8d44;
+  color: white;
+}
+
+.networks {
+  margin-bottom: 200px;
+}
+
+.networks .networks .header-networks {
+  font-size: 40px !important;
+  font-weight: 600;
+}
+
+.networks .networks .text-networks {
+  font-size: 18px !important;
+  font-weight: 200;
+  margin-top: 15px;
+}
+
+.networks .networks-image {
+  margin-top: 10px;
+  max-width: 100%;
+}
+
+.section-testi h1 {
+  font-weight: bold;
+}
+
+.section-testi p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+.section-testi .testi {
+  border: 1px solid #e0e0e0c4;
+  background-color: rgba(255, 255, 255, 0.6);
+  border-radius: 10px;
+  margin: 15px 30px;
+  padding: 20px;
+  min-width: 300px;
+  max-width: 350px;
+  min-height: 400px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-testi .testi h3 {
+  font-size: 32px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+.section-testi .testi p {
+  font-size: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  margin-top: 20px;
+}
+
+footer {
+  height: 600px;
+  margin-top: -200px;
+  padding-top: 300px;
+  border-width: 100%;
+}
+
+footer a {
+  color: #020f2e;
+  font-size: 15px;
+}
+
+footer a:hover {
+  color: black;
+}
+
+footer .footer-row {
+  border-top: 1px solid #dedede;
+}
+
+footer .footer-1 {
+  padding-top: 30px;
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+
+footer .footer-1 h5 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 500;
+  margin-top: 20px;
+}
+
+footer .footer-1 li {
+  text-decoration: none;
+}
+
+footer .Copyright {
+  border-top: 1px solid #dedede;
+}
+
+footer .Copyright h6 {
+  font-size: 17px;
+  margin: 30px 20px;
+  font-weight: 200;
+}
+
+.section-details-header {
+  min-height: 330px;
+  background-color: #e4e6eb;
+  margin-top: -80px;
+}
+
+.section-details-content {
+  margin-top: -210px;
+  margin-bottom: 10vh;
+}
+
+.section-details-content .breadcrumb {
+  background-color: transparent;
+  padding: 0;
+  margin-bottom: 30px;
+  padding-left: 15px;
+}
+
+.section-details-content .breadcrumb-item {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  font-size: 15px;
+}
+
+.section-details-content .breadcrumb-item.active {
+  font-weight: bold;
+  color: #071c3d;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.section-details-content .card-details {
+  padding: 30px;
+}
+
+.section-details-content .card-details h1 {
+  font-size: 26px;
+}
+
+.section-details-content .card-details h2 {
+  font-size: 20px;
+}
+
+.section-details-content .card-details p {
+  font-size: 18px;
+  color: #818181;
+}
+
+.section-details-content .description {
+  float: left;
+  margin-left: 10px;
+  overflow: hidden;
+}
+
+.btn-join {
+  background-color: #ff9e53;
+  color: white;
+  border-radius: 0;
+}
+
+.btn-join:hover {
+  background-color: #e98f4a;
+  color: white;
+  border-radius: 0;
+}
+
+.btn-add {
+  background-color: #071c3d;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-add:hover {
+  background: #0c2958;
+  color: white;
+  font-weight: 500;
+}
+
+@media (min-width: 710px) {
+  .section-popular {
+    margin-bottom: 800px;
+  }
+  .networks h1 {
+    font-size: 30px !important;
+  }
+  .networks p {
+    font-size: 15px !important;
+  }
+}
+
+@media (min-width: 992px) {
+  .navbar-brand img {
+    width: 180px;
+    min-height: 30px;
+  }
+  .nav-link {
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+  }
+  .btn-login {
+    font-size: 18px;
+    background-color: darkblue;
+    color: white;
+    font-weight: 400;
+  }
+  .btn-login:hover {
+    background-color: #1e3771;
+    color: white;
+  }
+  header {
+    padding-top: 180px;
+    padding-bottom: 180px;
+    margin-top: -80px;
+    background-image: url(../img/header-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+  }
+  header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+  }
+  header p {
+    font-size: 24px;
+    color: white;
+    font-weight: 200;
+  }
+  header .btn-get-started {
+    background-color: #ff9e53;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+  }
+  header .btn-get-started:hover {
+    background-color: #ec8d44;
+    color: white;
+  }
+  .row-box {
+    background-color: white;
+    margin-top: -45px;
+    padding-top: 10px;
+    margin-bottom: 50px;
+  }
+  .row-box h3,
+  .row-box p {
+    color: #05102b;
+  }
+  .row-box h3 {
+    font-size: 25px;
+    font-weight: 700;
+  }
+  .row-box p {
+    font-size: 18px;
+  }
+  .section-popular {
+    margin-bottom: 320px;
+  }
+  .wisata-lampung {
+    background-image: url(../img/Lampung.jpg);
+    min-height: 400px;
+    background-size: cover;
+    margin: 5px 10px;
+  }
+  .wisata-bali {
+    background-image: url(../img/Bali.jpg);
+    min-height: 400px;
+    background-size: cover;
+    margin: 5px 10px;
+  }
+  .wisata-malang {
+    background-image: url(../img/Bromo.jpg);
+    min-height: 400px;
+    background-size: cover;
+    margin: 5px 10px;
+  }
+}
+/*# sourceMappingURL=main.css.map */

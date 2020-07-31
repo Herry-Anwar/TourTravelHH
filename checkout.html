@@ -1,0 +1,434 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Details</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="gijgo/gijgo/css/gijgo.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style/main.css" />
+  </head>
+  <body style="font-family: 'Roboto', sans-serif;">
+    <!-- Navbar -->
+    <div class="container">
+      <nav class="navbar navbar-expand-lg navbar-light bg-white navbar-top">
+        <a class="navbar-brand" href="#">
+          <img src="img/logo_nomads.png" alt="Logo" class="logo" />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto mr-5">
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item active mx-1">
+              <a class="nav-link" href="#">Paket Travel</a>
+            </li>
+            <li class="nav-item dropdown mx-1">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Link</a>
+                <a class="dropdown-item" href="#">Link</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Link</a>
+              </div>
+            </li>
+            <li class="nav-item mx-1">
+              <a class="nav-link" href="#">Testimonial</a>
+            </li>
+            <!-- Mobile Button -->
+            <form class="form-inline d-sm-block d-md-none">
+              <button class="btn btn-login my-2 my-sm-0 px-4">
+                Masuk
+              </button>
+            </form>
+            <!-- Desktop Button -->
+            <form class="form-inline my-2 my-lg-0 d-none d-md-block">
+              <button class="btn btn-login btn-navbar-right my-2 my-sm-0 px-4">
+                Masuk
+              </button>
+            </form>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+    <!-- Main -->
+    <main>
+      <section class="section-details-header"></section>
+      <section class="section-details-content">
+        <div class="container">
+          <div class="row">
+            <div class="col p-0">
+              <nav>
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item">
+                    Paket Travel
+                  </li>
+                  <li class="breadcrumb-item">
+                    Details
+                  </li>
+                  <li class="breadcrumb-item active">
+                    Checkout
+                  </li>
+                </ol>
+              </nav>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 pl-lg-0 mb-3">
+              <div class="card card-details" style="border-radius: 10px;">
+                <h1>Who is Going?</h1>
+                <p>Trip to Ubuntu, Bali, Indonesia</p>
+                <table class="table table-responsive-sm text-center">
+                  <thead>
+                    <tr>
+                      <td>Picture</td>
+                      <td>Name</td>
+                      <td>Nationally</td>
+                      <td>VISA</td>
+                      <td>Passport</td>
+                      <td></td>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td class="align-middle">
+                        <img src="img/member-1.png" alt="" />
+                      </td>
+                      <td class="align-middle">Shayne</td>
+                      <td class="align-middle">CN</td>
+                      <td class="align-middle">N/A</td>
+                      <td class="align-middle">Active</td>
+                      <td>
+                        <a href="#"><img src="img/ic_remove.png" alt="" /></a>
+                      </td>
+                    </tr>
+                    <tr>
+                      <td class="align-middle">
+                        <img src="img/member-2.png" alt="" />
+                      </td>
+                      <td class="align-middle">Shania</td>
+                      <td class="align-middle">CN</td>
+                      <td class="align-middle">N/A</td>
+                      <td class="align-middle">30 Days</td>
+                      <td>
+                        <a href="#"><img src="img/ic_remove.png" alt="" /></a>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <div class="member mt-3">
+                  <h2>Add Member</h2>
+                  <form class="form-inline">
+                    <label for="inputUsername" class="sr-only">Name</label>
+                    <input
+                      type="text"
+                      class="form-control mb-2 mr-sm-2"
+                      id="inputUsername"
+                      name="inputUsername"
+                      placeholder="Username"
+                    />
+                    <label for="inputVISA" class="sr-only">Visa</label>
+                    <select
+                      name="inputVISA"
+                      id="inputVISA"
+                      class="custom-select mb-2 mr-sm-2"
+                    >
+                      <option value="VISA">VISA</option>
+                      <option value="30 Days">30 Days</option>
+                      <option value="N/A">N/A</option>
+                    </select>
+                    <label for="doePassport" class="sr-only"
+                      >DOE Passport</label
+                    >
+                    <div class="input-group mb-2 mr-sm-2">
+                      <input
+                        type="text"
+                        class="form-control datepicker"
+                        id="doePassport"
+                        placeholder="DOE Passport"
+                      />
+                    </div>
+                    <button type="submit" class="btn btn-add mb-2 px-4">
+                      Add Now
+                    </button>
+                  </form>
+                  <div class="note mt-3">
+                    <h2>Note</h2>
+                    <p
+                      style="font-size: 15px; font-weight: 300; color: #b1b1b1;"
+                    >
+                      You are only able to invite member that has registered in
+                      Nomands
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4">
+              <div
+                class="card card-details card-right"
+                style="border-radius: 10px 10px 0 0;"
+              >
+                <h3
+                  style="
+                    font-size: 18px;
+                    font-weight: 400;
+                    margin-bottom: 15px;
+                  "
+                >
+                  Checkout Information
+                </h3>
+
+                <table>
+                  <tr>
+                    <td
+                      style="font-size: 16px; color: #071c4d; font-weight: 400;"
+                    >
+                      Members
+                    </td>
+                    <td
+                      style="
+                        font-size: 16px;
+                        text-align: right;
+                        color: #b1b1b1;
+                      "
+                    >
+                      2 Persons
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="font-size: 16px; color: #071c4d; font-weight: 400;"
+                    >
+                      Additional VISA
+                    </td>
+                    <td
+                      style="
+                        font-size: 16px;
+                        text-align: right;
+                        color: #b1b1b1;
+                      "
+                    >
+                      $ 190,00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="font-size: 16px; color: #071c4d; font-weight: 400;"
+                    >
+                      Trip Price
+                    </td>
+                    <td
+                      style="
+                        font-size: 16px;
+                        text-align: right;
+                        color: #b1b1b1;
+                      "
+                    >
+                      $ 90 / Person
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="font-size: 16px; color: #071c4d; font-weight: 400;"
+                    >
+                      SubTotal
+                    </td>
+                    <td
+                      style="
+                        font-size: 16px;
+                        text-align: right;
+                        color: #b1b1b1;
+                      "
+                    >
+                      $ 280,00
+                    </td>
+                  </tr>
+                  <tr>
+                    <td
+                      style="
+                        font-size: 16px;
+                        color: #071c4d;
+                        font-weight: bold;
+                      "
+                    >
+                      Total
+                    </td>
+                    <td
+                      style="
+                        font-size: 16px;
+                        text-align: right;
+                        color: #000000;
+                        font-weight: bold;
+                      "
+                    >
+                      $ 280,<span style="color: #e0a538; font-weight: bold;"
+                        >33</span
+                      >
+                    </td>
+                  </tr>
+                </table>
+                <hr />
+                <div class="Payment-Instruction">
+                  <h3
+                    style="
+                      font-size: 18px;
+                      font-weight: 400;
+                      margin-bottom: 15px;
+                    "
+                  >
+                    Payment Instruction
+                  </h3>
+                  <p style="font-size: 15px; font-weight: 300; color: #b1b1b1;">
+                    We only accept payment in the form of a transfer to a bank
+                    account below
+                  </p>
+                  <div class="payment-1">
+                    <img
+                      src="img/ic_bank.png"
+                      alt=""
+                      style="float: left; margin-right: 20px;"
+                    />
+                    <p style="font-size: 15px; color: black;">
+                      <span style="font-weight: 500;">PT. Nomands ID</span>
+                      <br />
+                      0895413942485<br />
+                      Bank Central Asia
+                    </p>
+                  </div>
+                  <div class="payment-2">
+                    <img
+                      src="img/ic_bank.png"
+                      alt=""
+                      style="float: left; margin-right: 20px;"
+                    />
+                    <p style="font-size: 15px; color: black;">
+                      <span style="font-weight: 500;">PT. Nomands ID</span>
+                      <br />
+                      081977684202<br />
+                      Bank Mandiri
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="join-container">
+                <a
+                  href="checkout-success.html"
+                  class="btn btn-join btn-block py-2"
+                  >I Have Made Payment</a
+                >
+              </div>
+              <div class="text-center mt-3">
+                <a
+                  href="details.html"
+                  class="text-muted"
+                  style="font-size: 15px;"
+                  >Cancel Booking</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+      <div class="row justify-content-center mt-3 footer-row">
+        <div class="col-lg-2 col-md-6 col-sm-6 footer-1">
+          <h5>Features</h5>
+          <a href="#" class="link d-block">Reviews</a>
+          <a href="#" class="link d-block">Community</a>
+          <a href="#" class="link d-block">Social Media Kit</a>
+          <a href="#" class="link d-block">Affiliate</a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 footer-1">
+          <h5>Account</h5>
+          <a href="#" class="link d-block">Refund</a>
+          <a href="#" class="link d-block">Security</a>
+          <a href="#" class="link d-block">Reward</a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 footer-1">
+          <h5>Company</h5>
+          <a href="#" class="link d-block">Career</a>
+          <a href="#" class="link d-block">Help Center</a>
+          <a href="#" class="link d-block">Media</a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 footer-1">
+          <h5>Get Connected</h5>
+          <a href="#" class="link d-block">Palembang</a>
+          <a href="#" class="link d-block">Indonesia</a>
+          <a href="#" class="link d-block">0895 4139 42485</a>
+          <a href="#" class="link d-block">nomands@gmail.com</a>
+        </div>
+      </div>
+      <div class="row justify-content-center Copyright text-center">
+        <h6>2019 Copyright Nomads • All rights reserved • Made in Palembang</h6>
+      </div>
+    </footer>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+    <script src="gijgo/gijgo/js/gijgo.min.js"></script>
+    <script>
+      $(".datepicker").datepicker({
+        uilibrary: "bootstrap",
+        icons: {
+          rightIcon: '<img src="img/ic_doe.png" class="my-2 mx-2" />',
+        },
+      });
+    </script>
+  </body>
+</html>
